@@ -1,7 +1,7 @@
 # Requerimientos contador de personas
 # Para la instalación usar: pip install -r requerimientos.txt
 
-# Base ------------------------------------------------------------------------
+
 ultralytics>=8.0.147
 imutils
 pytest-shutil
