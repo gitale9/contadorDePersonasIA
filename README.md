@@ -8,7 +8,7 @@ Clonar el repositorio e intalar [requerimientos.txt](https://github.com/gitale9/
 
 ```bash
 git clone https://github.com/gitale9/contadorDePersonasIA.git  # clone
-cd yolov5
+
 pip install -r requerimientos.txt  # instalar
 ```
 
