@@ -7,19 +7,20 @@ Implementación de un sistema de conteo de personas en una Raspberry Pi 4
 <summary>Instalar</summary>
 
 Clonar el repositorio e intalar [requerimientos.txt](https://github.com/gitale9/contadorDePersonasIA/blob/46df5e167f3178dfff1c16b0394ab6af7d24cd25/requerimientos.txt)
+en un entrono [**Python 3**](https://www.python.org/)
 
 
 
 
 ```bash
 git clone https://github.com/gitale9/contadorDePersonasIA.git # clonar repositorio
-cd contadorDePersonasIA #ir a repositorio
+cd contadorDePersonasIA # ir a repositorio
 pip install -r requerimientos.txt  # instalar requerimientos
 ```
 </details>
 
 <details open>
-<summary>Tutorial entrenamiento</summary>
+<summary>Entrenamiento</summary>
 Aquí explicamos como entrenamos la red
 
 
