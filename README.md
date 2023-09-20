@@ -21,6 +21,10 @@ pip install -r requerimientos.txt  # instalar requerimientos
 <details open>
 <summary>Tutorial entrenamiento</summary>
 Aquí explicamos como entrenamos la red
+  
+## Base de datos:
+
+* https://drive.google.com/drive/folders/16R0U1hAoPWNHvRLm4l2aVLRH2y837B5C?usp=sharing
 </details>
 
 ## Contacto.
