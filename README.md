@@ -32,7 +32,7 @@ pip install -r requerimientos.txt  # instalar requerimientos
 Se ejemplifican 3 formas de usar el sistema
 
 * ### Demo
-   Desde la terminal ejecute el siguiente comando
+   Desde la terminal ejecutar el siguiente comando
   ```bash
   Python contador_de_personas.py
   ```
