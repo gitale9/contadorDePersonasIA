@@ -1,7 +1,14 @@
-# Sistema de Conteo de Personas por Medio de Inteligencia Artificial
+# <div align="center">Sistema de Conteo de Personas por Medio de Inteligencia Artificial</div>
+
 Implementación de un sistema de conteo de personas en una Raspberry Pi 4
 
-![Gif de salida](./gifSalida.gif "Salida del modelo ante vídeo de prueba")
+<div align="center">
+  <img src="./gifSalida.gif" width="50%" alt="" /></a>
+</div>
+
+
+
+
 
 <details open>
 <summary>Instalar</summary>
@@ -19,22 +26,29 @@ pip install -r requerimientos.txt  # instalar requerimientos
 ```
 </details>
 
-<details open>
-<summary>Entrenamiento</summary>
-Aquí explicamos como entrenamos la red
+
 
 
   
-## Base de datos:
-
-<p align="center">
-  <img src="https://drive.google.com/file/d/1ZSSxl5NMHxk0oN8zGVrGh135CEGFiahe/view?usp=sharing" alt="Alt Text">
-</p>
-
+## Base de datos
 * https://drive.google.com/drive/folders/1NggL7AcNG1_GGHBRocVCamX7GQkFuHfu?usp=sharing
-</details>
 
-## Contacto.
+  <details open>
+  <summary>Estructura</summary>
+     
+  <div align="center">
+    <img src="./base.png" width="40%" alt="" /></a>
+  </div>
+
+  
+  </details>
+
+
+
+
+
+
+## Contacto
 
 * Cristian de Jesús Bastidas Pedrozo. cristianbastidas41@gmail.com
   
