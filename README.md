@@ -28,6 +28,21 @@ pip install -r requerimientos.txt  # instalar requerimientos
 
 <details close>
 <summary>Ejecución</summary>
+
+Se ejemplifican 3 formas de usar el sistema
+
+* ### Demo
+   Desde la terminal ejecute el siguiente comando
+  ```bash
+  Python contador_de_personas.py
+  ```
+    
+* ### Vídeo propio
+  Para pasar al algoritmo un vídeo propio, en el repositorio clonado guardar el vídeo con el nombre de "video_test.mp4" en la carpeta "video prueba", luego ejecutar el mismo comando del demo en la terminal.
+  >***Nota:*** Si el vídeo propio está en un formato diferente, se debe convertir a "mp4"
+  
+* ### Cámara web (detección en tiempo real)
+
   
 </details>
 
