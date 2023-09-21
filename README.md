@@ -1,6 +1,6 @@
 # <div align="center">Sistema de Conteo de Personas por Medio de Inteligencia Artificial</div>
 
-Implementación de un sistema de conteo de personas en una Raspberry Pi 4
+Este sistema capaz de detectar y mantener una información cuantitativa de las personas que entran y salen de un establecimiento; Se implementa el algoritmo de YoloV5 junto a otras técnicas de visión artificial para determinar el aforo en un recito cerrado.
 
 <div align="center">
   <img src="./gifSalida.gif" width="50%" alt="" /></a>
@@ -10,8 +10,8 @@ Implementación de un sistema de conteo de personas en una Raspberry Pi 4
 
 
 
-<details open>
-<summary>Instalar</summary>
+<details close>
+<summary>Instalación</summary>
 
 Clonar el repositorio e intalar [requerimientos.txt](https://github.com/gitale9/contadorDePersonasIA/blob/46df5e167f3178dfff1c16b0394ab6af7d24cd25/requerimientos.txt)
 en un entrono [**Python 3**](https://www.python.org/)
@@ -26,24 +26,29 @@ pip install -r requerimientos.txt  # instalar requerimientos
 ```
 </details>
 
-
-
-
+<details close>
+<summary>Ejecución</summary>
   
+</details>
+
+<details close>
+<summary>Entrenamiento</summary>
+[Entrenamiento](./Entrenamiento)  
+</details>
+
 ## Base de datos
 * https://drive.google.com/drive/folders/1NggL7AcNG1_GGHBRocVCamX7GQkFuHfu?usp=sharing
 
-  <details open>
+  <details close>
   <summary>Estructura</summary>
      
   <div align="center">
     <img src="./base.png" width="40%" alt="" /></a>
   </div>
-
-  
   </details>
 
 
+ 
 
 
 
