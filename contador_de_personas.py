@@ -9,7 +9,7 @@ import gdown
 if(os.path.exists('DetectorDePersonas.pt')):
     print('DetectorDePersonas.pt listo')
 else:
-    url = "https://drive.google.com/file/d/1M7CJKTKMd0Z2RC4AZllXKnl8jlQ_lPYN/view?usp=drive_link"
+    url = "https://drive.google.com/file/d/1M7CJKTKMd0Z2RC4AZllXKnl8jlQ_lPYN/view?usp=sharing"
     output = "DetectorDePersonas.pt"
     gdown.download(url, output, quiet=False, fuzzy=True)
 
