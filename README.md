@@ -42,6 +42,15 @@ Se ejemplifican 3 formas de usar el sistema
   >***Nota:*** Si el vídeo propio está en un formato diferente, se debe convertir a "mp4"
   
 * ### Cámara web (detección en tiempo real)
+  Con un editor de texto abrir el archivo "contador_de_personas.py" que se encentra en este repositorio y cambiar la línea 22, como sigue:
+  ```bash
+  cap = cv2.VideoCapture('./video_prueba/video_test.mp4') # Esta es la línea actual, la que se va a reemplazar
+  cap = cv2.VideoCapture(0) # Así debe quedar la línea para la detección en tiempo real con la cámara del dispositivo
+  ```
+
+  >***Nota:*** Lo que se está haciendo es cambiar el argumento de la función por cero, también se puede cambiar por la dirección (en comillas) de un vídeo propio.
+  >> Si se establece en el argumento de la función la dirección de un nuevo vídeo este debe estar en formato "mp4"
+  
 
   
 </details>
