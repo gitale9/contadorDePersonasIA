@@ -61,9 +61,10 @@ while True:
     ret, frame = cap.read()
 
     # Mostramos el numero de vehiculos
-    cv2.putText(frame, "Ocupacion: ", (20, 1000), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 3)
-    cv2.putText(frame, str(contacar), (200, 1000), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 3)
-    cv2.putText(frame, "Personas", (260, 1000), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 3)
+    cv2.rectangle(frame,(0,0),(740,1020),(255,255,255),-1)
+    cv2.putText(frame, "Ocupacion: ", (80, 300), cv2.FONT_HERSHEY_SIMPLEX, 3.3, (0, 255, 0), 5)
+    cv2.putText(frame, str(contacar), (200, 550), cv2.FONT_HERSHEY_SIMPLEX, 7, (0, 255, 0), 5)
+    cv2.putText(frame, "Personas", (80, 700), cv2.FONT_HERSHEY_SIMPLEX, 3.3, (0, 255, 0), 5)
 
     if ret == False: break
     frame = imutils.resize(frame, width= 1000)
