@@ -33,14 +33,18 @@ pip install -r requerimientos.txt  # instalar requerimientos
 
 <details close>
 <summary>Entrenamiento</summary>
-[Entrenamiento](./Entrenamiento)  
+  
+  El [entrenamiento](./Entrenamiento)
+  se hace a partir una base de datos para generar un modelo de detección de personas; esto se hace con el fin de lograr mayor precisión, puesto que se entrena el algoritmo en el ambiente que se va a ejecutar, esta estrategia es una opción si se desarrolla para una tarea específica; como puede ser la determinacón del aforo en un supermercado en particular.
+
+  
 </details>
 
 ## Base de datos
 * https://drive.google.com/drive/folders/1NggL7AcNG1_GGHBRocVCamX7GQkFuHfu?usp=sharing
 
   <details close>
-  <summary>Estructura</summary>
+  <summary>Estructura base de datos</summary>
      
   <div align="center">
     <img src="./base.png" width="40%" alt="" /></a>
