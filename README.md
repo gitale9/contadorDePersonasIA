@@ -36,10 +36,25 @@ Se ejemplifican 3 formas de usar el sistema
   ```bash
   Python contador_de_personas.py
   ```
+    <details close>
+    <summary>Tutorial demo</summary>
+    
+    <div align="center">
+    <img src="tutorialDemo.gif" width="50%" alt="" /></a>
+    </div>
+    </details>
     
 * ### Vídeo propio
   Para pasar al algoritmo un vídeo propio, en el repositorio clonado guardar el vídeo con el nombre de "video_test.mp4" en la carpeta "video prueba", luego ejecutar el mismo comando del demo en la terminal.
   >***Nota:*** Si el vídeo propio está en un formato diferente, se debe convertir a "mp4"
+
+  <details close>
+    <summary>Tutorial vídeo propio</summary>
+    
+    <div align="center">
+    <img src="tutorialVideoPropio.gif" width="50%" alt="" /></a>
+    </div>
+    </details>
   
 * ### Cámara web (detección en tiempo real)
   Con un editor de texto abrir el archivo "contador_de_personas.py" que se encentra en este repositorio y cambiar la línea 22, como sigue:
@@ -50,7 +65,16 @@ Se ejemplifican 3 formas de usar el sistema
 
   >***Nota:*** Lo que se está haciendo es cambiar el argumento de la función por cero, también se puede cambiar por la dirección (en comillas) de un vídeo propio.
   >> Si se establece en el argumento de la función la dirección de un nuevo vídeo este debe estar en formato "mp4"
-  
+
+    <details close>
+    <summary>Tutorial cámara web</summary>
+    
+    <div align="center">
+    <img src="tutorialCamara.gif" width="50%" alt="" /></a>
+    </div>
+    </details>
+
+
 
   
 </details>
