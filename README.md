@@ -3,7 +3,7 @@
 Este sistema capaz de detectar y mantener una información cuantitativa de las personas que entran y salen de un establecimiento; Se implementa el algoritmo de YoloV5 junto a otras técnicas de visión artificial para determinar el aforo en un recito cerrado.
 
 <div align="center">
-  <img src="./gifSalida.gif" width="50%" alt="" /></a>
+  <img src="./videoSalida.gif" width="50%" alt="" /></a>
 </div>
 
 
