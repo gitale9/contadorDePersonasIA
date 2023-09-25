@@ -1,0 +1,12 @@
+
+train: /content/data/data/images/train  
+val: /content/data/data/images/val
+test:  # test images (optional)
+
+# Classes
+names:
+  0: person
+
+
+
+
