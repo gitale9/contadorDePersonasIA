@@ -1,5 +1,5 @@
 # Entrenamiento con YOLOv5
-A partir del repositorio de [YOLOv5](https://github.com/ultralytics/yolov5.git) y de enláces a tutoriales presentes en dicho repositorio, se crea [el cuaderno de colab](https://github.com/gitale9/contadorDePersonasIA/blob/66f660311565c2c8b65388fc947d1edfa4f76dc3/Entrenamiento/YOLOv5/EntrenamientoConYOLOv5.ipynb) para el entrenamiento personalizdo, a partir de un dataset propio.
+A partir del repositorio de [YOLOv5](https://github.com/ultralytics/yolov5.git) y de enláces a tutoriales presentes en dicho repositorio, se crea [un cuaderno de colab](https://github.com/gitale9/contadorDePersonasIA/blob/66f660311565c2c8b65388fc947d1edfa4f76dc3/Entrenamiento/YOLOv5/EntrenamientoConYOLOv5.ipynb) para un entrenamiento personalizdo, a partir de un dataset propio.
 
 EL dataset propio de este repositorio está ubicado en este [link](https://drive.google.com/drive/folders/1NggL7AcNG1_GGHBRocVCamX7GQkFuHfu?usp=sharing) y tanto su estructura como parte de su elaboración se muestran abajo
   <details close>
