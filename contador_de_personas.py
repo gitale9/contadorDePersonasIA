@@ -5,6 +5,7 @@ import torch
 import os
 from shutil import rmtree
 import gdown
+from time import time
 
 if(os.path.exists('DetectorDePersonas.pt')):
     print('DetectorDePersonas.pt listo')
@@ -21,6 +22,11 @@ model = torch.hub.load('ultralytics/yolov5', 'custom',
 
 cap = cv2.VideoCapture('./video_prueba/video_test.mp4')   #video de prueba del modelo
 
+def cal_fps(start , end):
+    one_second = 1
+    one_flash = end - start
+    fps = int(one_second / one_flash)
+    return  fps
 
 # Eliminar carpeta de resultados pasados
 try:
@@ -53,19 +59,20 @@ centroid_y = 0
 
 lim= 285
 lim_i = 304
+fps = 0
 
 while True:
-
+    t = time()
     #Realizar lectura de la captura
 
     ret, frame = cap.read()
 
     # Mostramos el numero de vehiculos
-    cv2.rectangle(frame,(0,0),(740,1020),(255,255,255),-1)
-    cv2.putText(frame, "Ocupacion: ", (80, 300), cv2.FONT_HERSHEY_SIMPLEX, 3.3, (0, 255, 0), 5)
-    cv2.putText(frame, str(contacar), (200, 550), cv2.FONT_HERSHEY_SIMPLEX, 7, (0, 255, 0), 5)
-    cv2.putText(frame, "Personas", (80, 700), cv2.FONT_HERSHEY_SIMPLEX, 3.3, (0, 255, 0), 5)
-
+    cv2.rectangle(frame,(0,0),(1000,200),(255,255,255),-1)
+    cv2.putText(frame, f'Ocupacion: {str(contacar)} Personas', (20, 140), cv2.FONT_HERSHEY_SIMPLEX, 2.5, (0, 255, 0), 5)
+    cv2.rectangle(frame,(0,910),(310,1010),(255,255,255),-1)
+    cv2.putText(frame, f'fps: {fps}', (20, 980), cv2.FONT_HERSHEY_SIMPLEX, 2.5, (0, 255, 0), 5)
+    
     if ret == False: break
     frame = imutils.resize(frame, width= 1000)
 
@@ -153,6 +160,7 @@ while True:
 
     cv2.imshow('frame', frame)
     #salida.write(frame)
+    fps = cal_fps(t, time())
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 cap.release()
